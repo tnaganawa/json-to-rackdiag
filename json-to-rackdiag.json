@@ -1,0 +1,127 @@
+{
+"room": "2F south",
+"racks":
+[
+ {
+ "rack_x":1,
+ "rack_y":1,
+ "rackname": "P1",
+  "each_u": [
+  {
+  "position":"1",
+  "hostname":"storage"
+  },
+  {
+  "position":"2",
+  "serial":"same as above"
+  },
+  {
+  "position":"3",
+  "hostname":"db1",
+  "serial":"xxx"
+  },
+  {
+  "position":"4",
+  "hostname":"web1",
+  "serial":"yyy"
+  },
+  {
+  "position":"5",
+  "hostname":"web2",
+  "serial":"aaa"
+  },
+  {
+  "position":"6",
+  "hostname":"web3",
+  "serial":"yyy"
+  },
+  {
+  "position":"7",
+  "hostname":"lb1",
+  "serial":"zzz"
+  },
+  {
+  "position":"8",
+  "hostname":"l3switch",
+  "serial":"yyy"
+  }
+  ]
+ },
+ {
+ "rack_x": 1,
+ "rack_y": 2,
+ "rackname": "P2",
+  "each_u": [
+  {
+  "position":"1",
+  "hostname":"UPS"
+  },
+  {
+  "position":"2",
+  "hostname":"mmm"
+  },
+  {
+  "position":"5",
+  "hostname":"nnn"
+  }
+  ]
+ },
+ {
+ "rack_x": 3,
+ "rack_y": 2,
+ "rackname": "P5",
+  "each_u": [
+  {
+  "position":"1",
+  "hostname":"UPS"
+  },
+  {
+  "position":"2",
+  "hostname":"sss"
+  },
+  {
+  "position":"7",
+  "hostname":"ttt"
+  }
+  ]
+ },
+ {
+ "rack_x": 3,
+ "rack_y": 4,
+ "rackname": "P6",
+  "each_u": [
+  {
+  "position":"1",
+  "hostname":"UPS"
+  },
+  {
+  "position":"2",
+  "hostname":"sss"
+  },
+  {
+  "position":"7",
+  "hostname":"ttt"
+  }
+  ]
+ },
+ {
+ "rack_x": 5,
+ "rack_y": 1,
+ "rackname": "P8",
+  "each_u": [
+  {
+  "position":"1",
+  "hostname":"UPS"
+  },
+  {
+  "position":"2",
+  "hostname":"sss"
+  },
+  {
+  "position":"7",
+  "hostname":"ttt"
+  }
+  ]
+ }
+]
+}
